@@ -7,7 +7,7 @@ const JsonFileSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('JsonFile', JsonFileSchema);
+// module.exports = mongoose.model('JsonFile', JsonFileSchema);
 
 
 

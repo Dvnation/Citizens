@@ -7,9 +7,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 3000
 const authRoutes = require('./routes/auth');
-const JsonFile = require('./models/JsonFIle');
-const Report = require('./models/report')
-
+// const JsonFile = require('./models/JsonFIle');
+// const Report = require('./models/report')
 // Generate a 256-bit (32 bytes) secret key
 // const secret = crypto.randomBytes(32).toString('hex');
 // console.log(secret);
