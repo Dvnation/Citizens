@@ -1,7 +1,7 @@
 const express = require('express');
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt'); // Import bcrypt
+const bcrypt = require('bcryptjs'); // Import bcrypt
 const router = express.Router();
 
 // Middleware to validate input
